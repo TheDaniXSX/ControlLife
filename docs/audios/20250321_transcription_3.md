@@ -1,0 +1,2 @@
+Speaker Dani | 00:00.706
+En plan... Falta mucho trabajo por hacer, ahora mismo estoy haciendo un brainstorm y de hecho... El otro día chatGPT me dio un esquema bastante bueno. de... lo que había que hacer y demás y... Eeh Luego te paso el chat, y estoy empezando a bocetar en TXT pues un poco todo dentro de Cursor. y y la idea era aprovechar de la que la hago para ponerlo como como TFM. O sea, porque al final voy a meter cosas de guía. Entonces, eso, mételo como TFM. Y así ya me lo quito de encima y es otra motivación más para hacerlo.

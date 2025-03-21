@@ -1,0 +1,2 @@
+Speaker Dani | 00:00.516
+Sí, a ver, yo también crearía... Había que tener un... Un archivo que fuera en plan... explicación de los archivos que tiene Una aplicación Android. ¿Sabes? En plan tener una... un... un un chat que sea como Vale, aquí están los temas, aquí los colores de los temas, aquí las fuentes de los temas, aquí... and Páginas de inicio, páginas de no sé qué, páginas de no sé cuánto, pop-ups, En plan, especificar en cada arch que hay dentro But, um... Al menos empezar a aclararnos que cojones Como cojones hace una aplicación Android
