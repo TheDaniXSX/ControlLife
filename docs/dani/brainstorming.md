@@ -5,6 +5,7 @@
 - Texto de los proyectos en .md con edicion mediante algo similar a Cursor.
 - Emociones
 - Gastos
+- Listas de la compra
 - Ideas
 - Objetivos
 - TODOs
@@ -21,11 +22,27 @@
     + Recursos
     + Documentos desarrollo
     + Imagenes
+- Usar Scribe
+- Usar Claude 3.5/3.7
+- Usar GPT4o/GPT4.5
+- LocalFirst
+    + Fast
+    + Multi-device
+    + Offline
+    + Collaborative
+    + Longevity
+    + Privacy
+    + User control
+
 
 ## Videos
 [Creo una APP Android en MINUTOS por IA GRATIS 📱 Tutorial FÁCIL con Cursor y Android Studio](https://www.youtube.com/watch?v=krIwmy014XA) 00:14
 
 [Build a Local-First Real-Time Shopping List App with Expo, TinyBase, Clerk & Cloudflare](https://www.youtube.com/watch?v=HqOiB2tDM8Q&t=948s) 04:37
+
+## Documentación
+[Android Studio](https://developer.android.com)
+[Scribe](https://elevenlabs.io/docs/api-reference/speech-to-text/convert)
 
 ## Objetivo
 

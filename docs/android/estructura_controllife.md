@@ -2,9 +2,94 @@
 
 <!-- Este documento explica la estructura específica del proyecto ControlLife que estamos desarrollando -->
 
-## Estructura Actual
+## Estructura Actual ControlLife
 
 Actualmente, el proyecto ControlLife es una aplicación Android básica creada con la plantilla "Basic Activity" de Android Studio. Esta plantilla proporciona una estructura inicial con navegación entre fragmentos.
+
+```
+controllife
+├── .gradle/                                           # Archivos generados por Gradle para caché y compilación
+├── .idea/                                             # Configuración específica del IDE Android Studio
+├── .kotlin/                                           # Caché y configuración específica para Kotlin
+├── app/                                               # Módulo principal de la aplicación
+├── ├── build/                                         # Archivos generados durante la compilación
+├── ├── src/                                           # Código fuente y recursos
+├── │   ├── androidTest/java/com/doolmo/controllife/   # Pruebas de instrumentación (UI Tests)
+├── │   │   └── ExampleInstrumentedTest.kt             # Ejemplo de prueba instrumentada
+├── │   ├── main/                                      # Código y recursos principales
+├── │   │   ├── java/com/doolmo/controllife/           # Código fuente principal en Kotlin
+├── │   │   │   ├── FirstFragment.kt                   # Primer Fragmento de ejemplo
+├── │   │   │   ├── MainActivity.kt                    # Actividad principal de la aplicación
+├── │   │   │   └── SecondFragment.kt                  # Segundo Fragmento de ejemplo
+├── │   │   ├── res/                                   # Recursos de la aplicación
+├── │   │   │   ├── drawable                           # Imágenes vectoriales y recursos gráficos
+├── │   │   │   │   ├── ic_launcher_background.xml     # Fondo del ícono de lanzamiento
+├── │   │   │   │   └── ic_launcher_foreground.xml     # Frente del ícono de lanzamiento
+├── │   │   │   ├── layout                             # Archivos XML para diseño de UI
+├── │   │   │   │   ├── activity_main.xml              # Diseño de la actividad principal
+├── │   │   │   │   ├── content_main.xml               # Contenido principal de la actividad
+├── │   │   │   │   ├── fragment_first.xml             # Diseño del primer fragmento
+├── │   │   │   │   └── fragment_second.xml            # Diseño del segundo fragmento
+├── │   │   │   ├── menu                               # Menús de la aplicación
+├── │   │   │   │   └── menu_main.xml                  # Menú principal de la aplicación
+├── │   │   │   ├── mipmap-anydpi                      # Íconos adaptativos XML para cualquier resolución
+├── │   │   │   │   ├── ic_launcher_round.xml          # Ícono redondo adaptativo
+├── │   │   │   │   └── ic_launcher.xml                # Ícono adaptativo normal
+├── │   │   │   ├── mipmap-hdpi                        # Íconos de alta resolución
+├── │   │   │   │   ├── ic_launcher_round.webp
+├── │   │   │   │   └── ic_launcher.webp
+├── │   │   │   ├── mipmap-mdpi                        # Íconos de resolución media
+├── │   │   │   │   ├── ic_launcher_round.webp
+├── │   │   │   │   └── ic_launcher.webp
+├── │   │   │   ├── mipmap-xhdpi                       # Íconos de resolución extra-alta
+├── │   │   │   │   ├── ic_launcher_round.webp
+├── │   │   │   │   └── ic_launcher.webp
+├── │   │   │   ├── mipmap-xxhdpi                      # Íconos de resolución doble-extra-alta
+├── │   │   │   │   ├── ic_launcher_round.webp
+├── │   │   │   │   └── ic_launcher.webp
+├── │   │   │   ├── mipmap-xxxhdpi                     # Íconos de resolución triple-extra-alta
+├── │   │   │   │   ├── ic_launcher_round.webp
+├── │   │   │   │   └── ic_launcher.webp
+├── │   │   │   ├── navigation                         # Configuración de navegación entre fragmentos
+├── │   │   │   │   └── nav_graph.xml                  # Gráfico de navegación
+├── │   │   │   ├── values                             # Valores globales como colores, dimensiones y textos
+├── │   │   │   │   ├── colors.xml                     # Definición de colores
+├── │   │   │   │   ├── dimens.xml                     # Definición de dimensiones estándar
+├── │   │   │   │   ├── strings.xml                    # Textos estáticos traducibles
+├── │   │   │   │   └── themes.xml                     # Definición del tema principal
+├── │   │   │   ├── values-land                        # Valores específicos para orientación horizontal
+├── │   │   │   │   └── dimens.xml
+├── │   │   │   ├── values-night                       # Valores específicos para modo oscuro
+├── │   │   │   │   └── themes.xml
+├── │   │   │   ├── values-v23                         # Valores específicos para API nivel 23 y superior
+├── │   │   │   │   └── themes.xml
+├── │   │   │   ├── values-w600dp                      # Valores específicos para pantallas medianas (tabletas)
+├── │   │   │   │   └── themes.xml
+├── │   │   │   ├── values-w1240dp                     # Valores específicos para pantallas grandes (tabletas grandes o escritorios)
+├── │   │   │   │   └── themes.xml
+├── │   │   │   └── xml                                # Configuración adicional en XML
+├── │   │   │       ├── backup_rules.xml               # Reglas para copias de seguridad automáticas
+├── │   │   │       └── data_extraction_rules.xml      # Reglas para extracción automática de datos
+├── │   │   └── AndroidManifest.xml                    # Configuración global de la aplicación Android
+├── │   └── test/java/com/doolmo/controllife/          # Pruebas unitarias
+├── │       └── ExampleUnitTest.kt                     # Ejemplo de prueba unitaria
+├── ├── .gitignore                                     # Reglas para archivos que Git debe ignorar
+├── ├── build.gradle                                   # Configuración específica de compilación del módulo "app"
+├── └── proguard-rules.pro                             # Reglas de optimización y ofuscación del código
+├── docs/                                              # Documentación del proyecto
+├── gradle/                                            # Archivos y scripts relacionados con Gradle
+├── ├── wrapper/                                       # Scripts y archivos para ejecutar Gradle
+├── │   ├── gradle-wrapper.jar                         # Ejecutable para la envoltura de Gradle
+├── │   └── gradle-wrapper.properties                  # Configuración para Gradle Wrapper
+├── └── libs.versions.toml                             # Versionado de dependencias de librerías
+├── .gitignore                                         # Reglas globales para archivos ignorados por Git
+├── build.gradle                                       # Configuración general de compilación del proyecto
+├── gradle.properties                                  # Propiedades globales de Gradle
+├── gradlew                                            # Script ejecutable para Gradle en sistemas Unix
+├── gradlew.bat                                        # Script ejecutable para Gradle en sistemas Windows
+├── local.properties                                   # Propiedades locales del entorno de desarrollo
+└── settings.gradle                                    # Configuración de los módulos incluidos en el proyecto
+```
 
 ## Componentes Principales
 
