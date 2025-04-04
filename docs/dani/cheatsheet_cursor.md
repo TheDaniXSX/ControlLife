@@ -81,6 +81,13 @@
 
 ---
 
+## Twitter tricks
+Cursor trick: after it generates a plan, before having it implement the plan, say:
+
+"Can we do this with less code? Look for opportunities to make this code more elegant and give me a report with your best ideas."
+
+---
+
 ## References
 - [Cursor Documentation](https://cursor.sh/docs)
 - [Model Context Protocol (MCP)](https://cursor.sh/docs/mcp)

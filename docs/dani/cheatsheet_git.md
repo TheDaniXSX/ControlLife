@@ -1,5 +1,32 @@
 # Git Cheat Sheet
 
+## Normal uses
+New commit
+```bash
+# Add all files in the current directory
+git add .
+git add -A #To delete also
+
+# Commit staged changes with a message
+git commit -m "Commit message"
+
+# Push to remote
+git push
+```
+
+Fix commit: make sure you can rewrite the commit history
+```bash
+# Add all files in the current directory
+git add .
+git add -A #To delete also
+
+# Amend the last commit
+git commit --amend -m "Updated commit message"
+
+# Force push to remote
+git push --force
+```
+
 ## Setting Up
 
 ### Install Git

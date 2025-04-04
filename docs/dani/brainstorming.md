@@ -1,6 +1,9 @@
 # Brainstorming
 
 ## Ideas
+
+### Funcionalidades
+
 - Widget para visualización y acciones rapidas(añadir input por audio).
 - Texto de los proyectos en .md con edicion mediante algo similar a Cursor.
 - Emociones
@@ -34,15 +37,153 @@
     + Privacy
     + User control
 
+### Estetica
+
+[Pinterest/apps](https://es.pinterest.com/thedanixsx/apps/)
+
+[Figma/ControlLife](https://www.figma.com/design/rRGX3H5JxvSDjekj4XBnRH/ControlLife?node-id=0-1&p=f&t=kpvJkiM06LNlmynw-0)
+
+### Desarrollo
+
+#### App shopping list
+
+
+#### App FinTech
+
+
+
 
 ## Videos
-[Creo una APP Android en MINUTOS por IA GRATIS 📱 Tutorial FÁCIL con Cursor y Android Studio](https://www.youtube.com/watch?v=krIwmy014XA) 00:14
+### Code with Beto
 
-[Build a Local-First Real-Time Shopping List App with Expo, TinyBase, Clerk & Cloudflare](https://www.youtube.com/watch?v=HqOiB2tDM8Q&t=948s) 04:37
+[How to build local-first native apps with LiveStore and Expo](https://youtu.be/zQIhJqYU1Qw?si=YRfPyXVaVND5fxH-) 00:29:33
 
+- Expo
+- LiveStore
+
+[Build a Local-First Real-Time Shopping List App with Expo, TinyBase, Clerk & Cloudflare](https://youtu.be/HqOiB2tDM8Q?si=ljbjzw05zM8ZrDvZ) 04:37:27
+
+[GitHub](https://codewithbeto.dev/projects/shopping-list-app)
+
+- Expo
+- @clerk/clerk-expo : for autentication
+- @clerk/types : type safety
+- @clerk/clerk-expo : for autentication
+- expo-crypto : needed for clerk and unique identifiers for objects
+- expo-camera : using the camera for QR codes
+- react-native-qrcode-svg : generate QR codes
+- react-native-svg : needed for qrcode
+- expo-network : make easy for network status
+- reconnecting-websocket : make easy reconections
+- tinybase : local data base
+- expo-sqlite : needed for tinybase
+- Cloudflare : cloud data base, durable objects
+
+[Build a Modern Multi-User Chat App with React Native, Expo, Clerk & Appwrite (Real-Time)](https://youtu.be/HKJdqJIDtMs?si=D26eYz1I3pA9gQUC) 01:52:39
+
+[GitHub](https://codewithbeto.dev/projects/modern-chat-app)
+
+- @clerk/clerk-expo: Core Clerk SDK for Expo/React Native apps
+- @clerk/types: TypeScript types for Clerk
+- @clerk/expo-passkeys: Enables passkey (biometric) authentication
+- expo-secure-store: Provides secure storage for tokens
+- expo-auth-session & expo-web-browser: Required for OAuth flows (Google Sign-in)
+- expo-crypto: Handles cryptographic operations
+- expo-build-properties: Configures native build settings
+
+### Simon Grimm
+
+[Airbnb Clone with React Native (Expo Router, Authentication, Reanimated, Clerk)](https://youtu.be/iWzUZiVoiR0?si=X4fcljKkBhjgQNUb) 04:41:31
+
+[GitHub](https://github.com/Galaxies-dev/airbnb-clone-react-native)
+
+- Expo
+- expo-router v2 : file-based
+- @clerk/clerk-expo : for user authentication, add Sign-in with Apple and Google Auth
+- react-native-reanimated for animations
+
+[Build a WhatsApp Clone with React Native (Expo Router, Reanimated, Clerk, Gestures, Gifted Chat)](https://youtu.be/VUhaDTKYBJU?si=JxVdNCBPaoRUpGGE) 04:06:07
+
+[GitHub](https://github.com/Galaxies-dev/whatsapp-clone-react-native)
+
+- Expo
+- expo-router : file-based
+- @clerk/clerk-expo : for user authentication, add Sign-in with Apple and Google Auth
+- react-native-reanimated : for animations
+- react-native-gesture-handler : gestures recognition
+- react-native-gifted-chat : chat UI
+
+[Build a FinTech Clone with React Native (API Routes, Zustand, Tanstack Query, FaceID, Charts, Clerk)](https://youtu.be/iDZBeIgcixk?si=nYYIN7HRxtOgnkNC) 05:34:52
+
+[GitHub](https://github.com/Galaxies-dev/fintech-clone-react-native)
+
+- Expo
+- expo-router : file-based navigation, layouts, shared components
+- @clerk/clerk-expo : for user authentication, SMS OTP
+- API Routes
+- reanimated : for powerful animations
+- zustand : MMKV for state management
+- gesture handler : for gestures
+- zeego : for native menus
+- CoinMarketCap API : for crypto prices
+- tanstack query
+- FaceID
+- Victory Native XL : for charts
+
+[Build a Threads Clone with React Native (Convex, Clerk, Sentry, Expo)](https://youtu.be/D-DUZNeVlRE?si=hvXGXN4au37BZZ-K) 06:21:05
+
+[GitHub](https://github.com/Galaxies-dev/todoist-clone-react-native)
+
+- Expo
+- expo-router : file-based navigation, layouts, shared components
+- @clerk/clerk-expo : for user authentication, add Sign-in with Apple, Google Auth and Instagram
+- convex : backend logic
+- convex database : for data storage
+- convex file storage : for file storage
+- convex actions : for push notifications
+- sentry : for error tracking
+- haptics : for haptic feedback
+- expo notifications : for push notifications
+- reanimated : for powerful animations
+- image zoom : for image zoom component
+
+[Build a Todoist Clone with React Native (RevenueCat, Clerk, Sentry, Expo, Reanimated, SQLite)](https://youtu.be/_k5v0KOfNZ0?si=xyGc0daMpTmxNeI9) 05:32:08
+
+[GitHub](https://github.com/Galaxies-dev/todoist-clone-react-native)
+
+- Expo
+- expo-router : file-based navigation, layouts, shared components
+- @clerk/clerk-expo : for user authentication, add Sign-in with Apple and Google Auth
+- sentry : error tracking
+- revenueCat : suscriptions and pay-walls
+- expo-sqlite : for storing chats and messages
+- react hook : form for form handling
+- calendars : for calendar component
+- bouncy checkbox : for checkbox component
+- haptics : for haptic feedback
+- reanimated : 3 for animations
+- gesture handler : for gestures
+- RN MMKV : for efficient key/value storage
+- sonner native : for toast notifications
+
+### Others
+
+[How to Develop Mobile Apps for Android and iOS using Cursor AI Coding in React Native and Expo 2025](https://youtu.be/fSJj16UM990?si=x_opbUeIy8A11UZd) 00:41:25
+
+[La forma más rápida de crear una aplicación móvil (IA + Expo = Magia)](https://youtu.be/fJb6f2Sw4Ek?si=aGkW5jwZbrlne2eG) 00:09:50
+
+[]()
 ## Documentación
+
 [Android Studio](https://developer.android.com)
+
+[Expo](https://docs.expo.dev)
+
+[ChatGPT](https://platform.openai.com/docs/overview)
+
 [Scribe](https://elevenlabs.io/docs/api-reference/speech-to-text/convert)
+
+[]()
 
 ## Objetivo
 
