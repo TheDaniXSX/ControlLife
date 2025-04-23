@@ -36,6 +36,7 @@
     + Longevity
     + Privacy
     + User control
+- Considerar añadir whisper local https://x.com/VZHydra/status/1909325218385928691?t=0BdMFCXHylQ6Ex-L9Ml8tA&s=08
 
 ### Estetica
 
